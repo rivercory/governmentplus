@@ -1,23 +1,26 @@
 [
   {
     "id": 1,
-    "day": 1,
-    "eng": "book",
-    "kor": "책",
-    "nao": false
+    "created_at": "2023.11.19",
+    "kor": "정부24",
+    "img": "",
+    "link": "https://www.gov.kr/",
+    "nao": true
+  },
+  {
+    "id": 2,
+    "kor": "자동차"
   },
   {
     "id": 3,
-    "day": 2,
-    "eng": "car",
-    "kor": "자동차",
-    "nao": false
+    "kor": "사과"
   },
   {
-    "id": 12,
-    "day": 3,
-    "eng": "apple",
-    "kor": "사과",
-    "nao": true
+    "id": 3,
+    "kor": "사과"
+  },
+  {
+    "id": 3,
+    "kor": "사과"
   }
 ]
