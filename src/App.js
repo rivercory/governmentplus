@@ -62,7 +62,7 @@ const App = () => {
                         </a>
                     </div>
 
-                    <div className="grid grid-cols-4 gap-2 w-full p-4">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-2 w-full p-4">
                         {filteredProjects.map(project => {
                             return (
                                 <a href={project.link} target="_blank">
