@@ -2,25 +2,26 @@
   {
     "id": 1,
     "created_at": "2023.11.19",
-    "kor": "정부24",
-    "img": "",
+    "name": "정부24",
+    "description": "정부의 서비스, 민원, 정책·정보를 통합·제공하는 대한민국 정부 대표포털",
+    "img": "https://i.ibb.co/C6Lmtj4/24.png",
     "link": "https://www.gov.kr/",
     "nao": true
   },
   {
     "id": 2,
-    "kor": "자동차"
+    "name": "자동차"
   },
   {
     "id": 3,
-    "kor": "사과"
+    "name": "사과"
   },
   {
-    "id": 3,
-    "kor": "사과"
+    "id": 4,
+    "name": "사과"
   },
   {
-    "id": 3,
-    "kor": "사과"
+    "id": 5,
+    "name": "사과"
   }
 ]

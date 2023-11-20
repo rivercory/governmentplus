@@ -1,17 +1,9 @@
-import React, {useState} from "react";
-import data from "./data/government.json";
 import "./App.css";
+import Home from "./page/Home";
+import Gov from "./page/Gov";
+import {Link, Route, Routes} from "react-router-dom";
 
 const App = () => {
-    const [filter, setFilter] = useState();
-    const projects = data;
-
-    console.log(projects);
-
-    const filteredProjects = !filter
-        ? projects
-        : projects.filter(project => project[filter]);
-
     return (
         <div>
             <div className="m-4 pretendard">
@@ -21,8 +13,9 @@ const App = () => {
             </div>
             <div className="navbar mb-2 bg-base-100">
                 <div className="flex-1">
-                    <a className="btn btn-ghost text-xl"><img src="./icons/govenmentplus_transparent.svg" width="32"
-                                                              height="32"/></a>
+                    <Link to="/" className="btn btn-ghost text-xl"><img src="./icons/govenmentplus_transparent.svg"
+                                                                        width="32"
+                                                                        height="32"/></Link>
                 </div>
                 <div className="flex-none gap-2">
                     <div className="form-control">
@@ -36,51 +29,19 @@ const App = () => {
                             </div>
                         </label>
                         <ul tabIndex={0}
-                            className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
-                            <li>
-                                <a className="justify-between">
-                                    Profile
-                                    <span className="badge">New</span>
-                                </a>
-                            </li>
-                            <li><a>Settings</a></li>
-                            <li><a>Logout</a></li>
+                            className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52 pretendard">
+                            <li><Link to="/">홈</Link></li>
+                            <li><Link to="/gov">정부 웹사이트</Link></li>
+                            <li><Link to="/school">학교, 교육청 웹사이트</Link></li>
                         </ul>
                     </div>
                 </div>
             </div>
-                <div className="section-component">
-                    <div role="tablist" className="w-fit tabs tabs-boxed tabs-lg ml-4 pretendard">
-                        <a role="tab" className="tab" onClick={() => setFilter()}>
-                            전체
-                        </a>
-                        <a role="tab" className="tab" onClick={() => setFilter("nao")}>
-                            국가행정조직
-                        </a>
-                        <a role="tab" className="tab" onClick={() => setFilter("lg")}>
-                            지자체
-                        </a>
-                    </div>
-
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-2 w-full p-4">
-                        {filteredProjects.map(project => {
-                            return (
-                                <a href={project.link} target="_blank">
-                                    <div className="card bg-base-100 shadow-xl">
-                                        <figure><img src={project.img} alt="Shoes"/></figure>
-                                        <div className="card-body">
-                                            <h2 className="card-title">
-                                                {project.kor}
-                                            </h2>
-                                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            );
-                        })}
-                    </div>
-                </div>
-            </div>
+            <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/gov" element={<Gov/>}/>
+            </Routes>
+        </div>
     );
 };
 
