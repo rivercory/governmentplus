@@ -2,4 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "font.css";
+@import url("https://cdn.jsdelivr.net/gh/hyeonho64/hyeonho64/font.css");
