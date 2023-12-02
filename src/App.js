@@ -13,9 +13,12 @@ const App = () => {
             </div>
             <div className="navbar mb-2 bg-base-100">
                 <div className="flex-1">
-                    <Link to="/" className="btn btn-ghost text-xl"><img src="./icons/govenmentplus_transparent.svg"
-                                                                        width="32"
-                                                                        height="32"/></Link>
+                    <Link to="/" className="btn btn-ghost text-2xl font-bold chosunilbo-myungjo">
+                        <img src="./icons/govenmentplus_full.svg"
+                             width="28"
+                             height="28"/>
+                        정부플러스
+                    </Link>
                 </div>
                 <div className="flex-none gap-2">
                     <div className="form-control">
