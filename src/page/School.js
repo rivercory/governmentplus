@@ -14,14 +14,14 @@ const School = () => {
         <div>
             <div>
                 <div className="section-component">
-                    <div role="tablist" className="w-fit tabs tabs-boxed tabs-lg ml-4 pretendard">
-                        <a role="tab" className="tab" onClick={() => setFilter()}>
+                    <div role="tablist" className="grid gap-2 w-fit md:mt-0 mt-4 ml-4 pretendard">
+                        <a role="tab" className="tab rounded-full border-2" onClick={() => setFilter()}>
                             전체
                         </a>
-                        <a role="tab" className="tab" onClick={() => setFilter("ooe")}>
+                        <a role="tab" className="tab rounded-full border-2" onClick={() => setFilter("ooe")}>
                             교육청
                         </a>
-                        <a role="tab" className="tab" onClick={() => setFilter("school")}>
+                        <a role="tab" className="tab rounded-full border-2" onClick={() => setFilter("school")}>
                             학교
                         </a>
                     </div>

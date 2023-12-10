@@ -14,14 +14,14 @@ const Gov = () => {
         <div>
             <div>
                 <div className="section-component">
-                    <div role="tablist" className="w-fit tabs tabs-boxed tabs-lg ml-4 pretendard">
-                        <a role="tab" className="tab" onClick={() => setFilter()}>
+                    <div role="tablist" className="grid gap-2 w-fit md:mt-0 mt-4 ml-4 pretendard">
+                        <a role="tab" className="tab rounded-full border-2" onClick={() => setFilter()}>
                             전체
                         </a>
-                        <a role="tab" className="tab" onClick={() => setFilter("nao")}>
+                        <a role="tab" className="tab rounded-full border-2" onClick={() => setFilter("nao")}>
                             국가행정조직
                         </a>
-                        <a role="tab" className="tab" onClick={() => setFilter("lg")}>
+                        <a role="tab" className="tab rounded-full border-2" onClick={() => setFilter("lg")}>
                             지자체
                         </a>
                     </div>

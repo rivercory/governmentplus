@@ -1,19 +1,20 @@
 import "./App.css";
+import {Link, Route, Routes} from "react-router-dom";
 import Home from "./page/Home";
 import Gov from "./page/Gov";
-import {Link, Route, Routes} from "react-router-dom";
+import School from "./page/School";
 
 const App = () => {
     return (
         <div>
-            <div className="m-4 pretendard">
+            <div className="m-4 pretendard md:block hidden">
                 <a>
                     이 웹사이트는 대한민국 정부 공식 웹사이트가 아닙니다.
                 </a>
             </div>
-            <div className="navbar mb-2 bg-base-100">
+            <div className="navbar mb-2 bg-base-100 md:flex hidden">
                 <div className="flex-1">
-                    <Link to="/" className="btn btn-ghost text-2xl font-bold chosunilbo-myungjo">
+                    <Link to="/" className="btn btn-ghost text-2xl pretendard">
                         <img src="./icons/govenmentplus_full.svg"
                              width="28"
                              height="28"/>
@@ -43,6 +44,7 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/gov" element={<Gov/>}/>
+                <Route path="/school" element={<School/>}/>
             </Routes>
         </div>
     );
