@@ -26,7 +26,7 @@ const Gov = () => {
                         </a>
                     </div>
 
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-2 w-full p-4 pretendard">
+                    <div className="grid grid-cols-2 auto-cols-max md:grid-cols-4 gap-2 w-full p-4 pretendard">
                         {filteredProjects.map(project => {
                             return (
                                 <a href={project.link} target="_blank">
