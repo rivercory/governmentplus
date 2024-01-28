@@ -30,8 +30,8 @@ const School = () => {
                         {filteredProjects.map(project => {
                             return (
                                 <a href={project.link} target="_blank">
-                                    <div className="card bg-base-100 card-bordered border-2">
-                                        <figure><img src={project.img} alt="Shoes"/></figure>
+                                    <div className="card bg-base-100 card-bordered border-2 p-4">
+                                        <figure><img src={project.img} alt="img"/></figure>
                                         <div className="card-body">
                                             <h2 className="card-title">
                                                 {project.name}

@@ -12,7 +12,7 @@ const App = () => {
     }, []);
     return (
         <div>
-            <div className="w-auto navbar bg-base-100 m-4 rounded-full border-2">
+            <div className="w-auto navbar m-2 bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
