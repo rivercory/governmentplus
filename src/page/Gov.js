@@ -26,17 +26,18 @@ const Gov = () => {
                         </a>
                     </div>
 
-                    <div className="grid grid-cols-2 auto-cols-max md:grid-cols-4 gap-2 w-full p-4 pretendard">
+                    <div className="grid grid-cols-1 auto-cols-max md:grid-cols-4 gap-2 w-full p-4 pretendard">
                         {filteredProjects.map(project => {
                             return (
                                 <a href={project.link} target="_blank">
-                                    <div className="card bg-base-100 card-bordered border-2">
+                                    <div className="card p-2 bg-base-100 card-bordered border-2">
                                         <figure><img src={project.img} alt="Shoes"/></figure>
                                         <div className="card-body">
                                             <h2 className="card-title">
                                                 {project.name}
                                             </h2>
                                             <p>{project.description}</p>
+                                            <div className="badge badge-ghost">{project.category}</div>
                                         </div>
                                     </div>
                                 </a>
