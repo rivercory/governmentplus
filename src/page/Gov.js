@@ -26,18 +26,35 @@ const Gov = () => {
                         </a>
                     </div>
 
-                    <div className="grid grid-cols-1 auto-cols-max md:grid-cols-4 gap-2 w-full p-4 pretendard">
+                    <div className="md:block hidden suit">
                         {filteredProjects.map(project => {
                             return (
                                 <a href={project.link} target="_blank">
-                                    <div className="card p-2 bg-base-100 card-bordered border-2">
-                                        <figure><img src={project.img} alt="Shoes"/></figure>
+                                    <div className="flex flex-row card m-4 p-2 bg-base-100 card-bordered border-2">
+                                        <figure><img className="flex-none w-96 p-6" src={project.img} alt="Shoes"/></figure>
                                         <div className="card-body">
                                             <h2 className="card-title">
                                                 {project.name}
                                             </h2>
                                             <p>{project.description}</p>
-                                            <div className="badge badge-ghost">{project.category}</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            );
+                        })}
+                    </div>
+
+                    <div className="md:hidden block suit grid grid-cols-1 auto-cols-max md:grid-cols-4 gap-2 w-full p-4 pretendard">
+                        {filteredProjects.map(project => {
+                            return (
+                                <a href={project.link} target="_blank">
+                                    <div className="card p-2 bg-base-100 card-bordered border-2">
+                                        <figure><img className="p-2" src={project.img} alt="Shoes"/></figure>
+                                        <div className="card-body">
+                                            <h2 className="card-title">
+                                                {project.name}
+                                            </h2>
+                                            <p>{project.description}</p>
                                         </div>
                                     </div>
                                 </a>
