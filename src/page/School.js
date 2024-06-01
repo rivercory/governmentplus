@@ -1,4 +1,4 @@
-import data from "../data/school.json";
+import data from "../components/data/school.json";
 import {useState} from "react";
 
 const School = () => {

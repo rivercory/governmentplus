@@ -1,4 +1,4 @@
-import data from "../data/government.json";
+import data from "../components/data/government.json";
 import {useState} from "react";
 
 const Gov = () => {
@@ -31,7 +31,7 @@ const Gov = () => {
                             return (
                                 <a href={project.link} target="_blank">
                                     <div className="flex flex-row card m-4 p-2 bg-base-100 card-bordered border-2">
-                                        <figure><img className="flex-none w-96 p-6" src={project.img} alt="Shoes"/></figure>
+                                        <figure><img className="flex-none w-60 p-6" src={project.img} alt="Shoes"/></figure>
                                         <div className="card-body">
                                             <h2 className="card-title">
                                                 {project.name}
