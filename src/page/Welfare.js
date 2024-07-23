@@ -1,8 +1,8 @@
-const Home = () => {
+const Welfare = () => {
     return (
         <div>
         </div>
     );
 };
 
-export default Home;
+export default Welfare;
