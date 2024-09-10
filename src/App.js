@@ -17,7 +17,7 @@ const App = () => {
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
-                            <img src="https://governmentplus.vercel.app/assets/icons/govenmentplus_full.svg" width="32" height="32" />
+                            <img src="https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/icons/govenmentplus_full.svg" width="32" height="32" />
                         </div>
                         <ul tabIndex={0}
                             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 bg-base-100 rounded-box w-52">
