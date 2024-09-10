@@ -14,7 +14,7 @@
     "updated_at": "2024.09.10",
     "name": "대한민국 대통령실",
     "description": "대한민국 대통령실 공식 홈페이지",
-    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/president.jpg",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/removebg/president-removebg.png",
     "link": "https://www.president.go.kr/"
   },
   {
@@ -23,7 +23,7 @@
     "updated_at": "2024.09.10",
     "name": "대한민국 정책브리핑",
     "description": "문화체육관광부에서 운영하는 대한민국 정부 정책뉴스포털, 민생토론회 특집페이지 등",
-    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/policybriefing.png",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/removebg/policybriefing-removebg.png",
     "link": "https://www.korea.kr/"
   },
   {
@@ -41,7 +41,7 @@
     "updated_at": "2024.09.10",
     "name": "감사원",
     "description": "감사원",
-    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/audit.png",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/removebg/audit-removebg.png",
     "link": "https://www.bai.go.kr/bai/"
   },
   {
@@ -50,7 +50,7 @@
     "updated_at": "2024.09.10",
     "name": "국가정보원",
     "description": "대한민국 국가정보원 공식 홈페이지",
-    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/nis.jpg",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/removebg/nis-removebg.png",
     "link": "https://www.nis.go.kr:4016/main.do"
   }
 ]
