@@ -2,55 +2,55 @@
   {
     "id": 1,
     "created_at": "2023.11.19",
-    "updated_at": "2024.03.16",
+    "updated_at": "2024.09.10",
     "name": "정부24",
     "description": "정부의 서비스, 민원, 정책·정보를 통합·제공하는 대한민국 정부 대표포털",
-    "img": "https://i.ibb.co/C6Lmtj4/24.png",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/gov24.png",
     "link": "https://www.gov.kr/"
   },
   {
     "id": 2,
     "created_at": "2024.01.31",
-    "updated_at": "2024.03.16",
+    "updated_at": "2024.09.10",
     "name": "대한민국 대통령실",
     "description": "대한민국 대통령실 공식 홈페이지",
-    "img": "https://i.ibb.co/Fh7GRHw/image.jpg",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/president.jpg",
     "link": "https://www.president.go.kr/"
   },
   {
     "id": 3,
     "created_at": "2024.01.31",
-    "updated_at": "2024.03.16",
+    "updated_at": "2024.09.10",
     "name": "대한민국 정책브리핑",
     "description": "문화체육관광부에서 운영하는 대한민국 정부 정책뉴스포털, 민생토론회 특집페이지 등",
-    "img": "https://i.ibb.co/WBw46KZ/image.png",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/policybriefing.png",
     "link": "https://www.korea.kr/"
   },
   {
     "id": 4,
     "created_at": "2024.03.16",
-    "updated_at": "2024.03.16",
+    "updated_at": "2024.09.10",
     "name": "대통령경호처",
     "description": "대통령경호처 홈페이지입니다.",
-    "img": "https://i.ibb.co/T8J0y6F/image.png",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/presidentialsecurity.svg",
     "link": "https://www.pss.go.kr/sites/ko/main"
   },
   {
     "id": 5,
     "created_at": "2024.03.16",
-    "updated_at": "2024.03.16",
+    "updated_at": "2024.09.10",
     "name": "감사원",
     "description": "감사원",
-    "img": "https://i.ibb.co/QQ4rM1M/image.png",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/audit.png",
     "link": "https://www.bai.go.kr/bai/"
   },
   {
     "id": 6,
     "created_at": "2024.03.16",
-    "updated_at": "2024.03.16",
+    "updated_at": "2024.09.10",
     "name": "국가정보원",
     "description": "대한민국 국가정보원 공식 홈페이지",
-    "img": "https://i.ibb.co/ZYfdK5w/image.jpg",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/nis.jpg",
     "link": "https://www.nis.go.kr:4016/main.do"
   }
 ]
