@@ -1,11 +1,13 @@
 import data from "../components/data/government.json";
-import {useState} from "react";
+import { useState } from "react";
 
 const Gov = () => {
     const [filter, setFilter] = useState();
     const projects = data;
 
     console.log(projects);
+
+    setFilter()
 
     const filteredProjects = !filter
         ? projects
@@ -14,24 +16,12 @@ const Gov = () => {
         <div>
             <div>
                 <div className="section-component">
-                    <div role="tablist" className="grid gap-2 w-fit md:mt-0 mt-4 ml-4">
-                        <a role="tab" className="tab rounded-full border-2" onClick={() => setFilter()}>
-                            전체
-                        </a>
-                        <a role="tab" className="tab rounded-full border-2" onClick={() => setFilter("nao")}>
-                            국가행정조직
-                        </a>
-                        <a role="tab" className="tab rounded-full border-2" onClick={() => setFilter("lg")}>
-                            지자체
-                        </a>
-                    </div>
-
                     <div className="md:block hidden">
                         {filteredProjects.map(project => {
                             return (
                                 <a href={project.link} target="_blank">
                                     <div className="flex flex-row card m-4 p-2 bg-base-100 card-bordered border-2">
-                                        <figure><img className="flex-none w-48 p-2" src={project.img} alt="Image"/></figure>
+                                        <figure><img className="flex-none w-48 p-2" src={project.img} alt="Image" /></figure>
                                         <div className="card-body">
                                             <h2 className="card-title">
                                                 {project.name}
@@ -49,7 +39,7 @@ const Gov = () => {
                             return (
                                 <a href={project.link} target="_blank">
                                     <div className="card p-2 bg-base-100 card-bordered border-2">
-                                        <figure><img className="p-2" src={project.img} alt="Image"/></figure>
+                                        <figure><img className="p-2" src={project.img} alt="Image" /></figure>
                                         <div className="card-body">
                                             <h2 className="card-title">
                                                 {project.name}

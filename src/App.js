@@ -2,8 +2,6 @@ import "./components/css/App.css";
 import {Route, Routes, Link} from "react-router-dom";
 import Home from "./page/Home";
 import Gov from "./page/Gov";
-import School from "./page/School";
-import Welfare from "./page/Welfare";
 import {themeChange} from "theme-change";
 import {useEffect} from "react";
 
@@ -17,7 +15,7 @@ const App = () => {
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
-                            <img src="https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/icons/govenmentplus_full.svg" width="32" height="32" />
+                            <img src="https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/icons/governmentplus_full.svg" width="32" height="32" />
                         </div>
                         <ul tabIndex={0}
                             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 bg-base-100 rounded-box w-52">
@@ -54,8 +52,6 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/gov" element={<Gov/>}/>
-                <Route path="/school" element={<School/>}/>
-                <Route path="/welfare" element={<Welfare/>}/>
             </Routes>
         </div>
     );
