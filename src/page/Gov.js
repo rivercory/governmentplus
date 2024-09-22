@@ -1,5 +1,5 @@
 import data from "../components/data/government.json";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Gov = () => {
     const [filter, setFilter] = useState();
@@ -7,7 +7,9 @@ const Gov = () => {
 
     console.log(projects);
 
-    setFilter()
+    useEffect(() => {
+        setFilter()
+    }, []);
 
     const filteredProjects = !filter
         ? projects
