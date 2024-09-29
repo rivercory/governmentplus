@@ -1,10 +1,9 @@
 
 import React from 'react';
-import {Route} from 'react-router';
+import { Route } from 'react-router';
 
 export default (
   <Route>
     <Route path='/' />
-    <Route path='/gov' />
   </Route>
 );
