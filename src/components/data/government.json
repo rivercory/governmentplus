@@ -3,7 +3,7 @@
     "id": 1,
     "name": "정부24",
     "description": "정부의 서비스, 민원, 정책·정보를 통합·제공하는 대한민국 정부 대표포털",
-    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/gov24.png",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/gov.png",
     "link": "https://www.gov.kr/"
   },
   {
@@ -17,21 +17,21 @@
     "id": 3,
     "name": "대한민국 정책브리핑",
     "description": "문화체육관광부에서 운영하는 대한민국 정부 정책뉴스포털, 민생토론회 특집페이지 등",
-    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/removebg/policybriefing-removebg.png",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/removebg/korea-removebg.png",
     "link": "https://www.korea.kr/"
   },
   {
     "id": 4,
     "name": "대통령경호처",
     "description": "대통령경호처 홈페이지입니다.",
-    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/presidentialsecurity.svg",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/pss.svg",
     "link": "https://www.pss.go.kr/sites/ko/main"
   },
   {
     "id": 5,
     "name": "감사원",
     "description": "감사원",
-    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/removebg/audit-removebg.png",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/removebg/bai-removebg.png",
     "link": "https://www.bai.go.kr/bai/"
   },
   {
@@ -54,5 +54,19 @@
     "description": "여성가족부가 평등사회를 만들어 가겠습니다.",
     "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/removebg/mogef-removebg.png",
     "link": "https://www.mogef.go.kr/"
+  },
+  {
+    "id": 9,
+    "name": "중소벤처기업부",
+    "description": "중소기업중앙회 등 기관 중소기업 조사, 통계 DB화 검색, 내려받기 등 제공.",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/removebg/mss-removebg.png",
+    "link": "https://www.mss.go.kr/site/smba/main.do"
+  },
+  {
+    "id": 10,
+    "name": "기획재정부",
+    "description": "경제동향, 지표, 예산 및 기금, 전자민원창구 등 수록",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/moef.png",
+    "link": "https://www.moef.go.kr/"
   }
 ]
