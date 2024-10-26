@@ -4,11 +4,11 @@
   "private": true,
   "dependencies": {
     "@snaddyvitch-dispenser/react-router-sitemap": "^1.2.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
-    "react-icons": "^4.12.0",
-    "react-router-dom": "^6.19.0",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.27.0",
     "react-scripts": "^5.0.1",
     "theme-change": "^2.5.0"
   },
@@ -39,7 +39,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
-    "daisyui": "^4.4.2",
-    "tailwindcss": "^3.3.5"
+    "daisyui": "^4.12.13",
+    "tailwindcss": "^3.4.14"
   }
 }
