@@ -22,7 +22,7 @@ const Home = () => {
                         {filteredProjects.map(project => {
                             return (
                                 <a href={project.link} target="_blank">
-                                    <div className="flex flex-row card m-4 p-2 bg-base-100 card-bordered border-2">
+                                    <div className="flex flex-row card m-2 p-2 bg-base-100 card-bordered border-2 border-base-300">
                                         <figure><img className="flex-none w-48 p-2" src={project.img} alt="Image" /></figure>
                                         <div className="card-body">
                                             <h2 className="card-title">
@@ -36,11 +36,11 @@ const Home = () => {
                         })}
                     </div>
 
-                    <div className="md:hidden block grid grid-cols-1 auto-cols-max md:grid-cols-4 gap-2 w-full p-4">
+                    <div className="md:hidden block grid grid-cols-1 auto-cols-max md:grid-cols-4 gap-2 w-full p-2">
                         {filteredProjects.map(project => {
                             return (
                                 <a href={project.link} target="_blank">
-                                    <div className="card p-2 bg-base-100 card-bordered border-2">
+                                    <div className="card p-2 bg-base-100 card-bordered border-2 border-base-300">
                                         <figure><img className="p-2" src={project.img} alt="Image" /></figure>
                                         <div className="card-body">
                                             <h2 className="card-title">

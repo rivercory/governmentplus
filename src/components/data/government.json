@@ -68,5 +68,19 @@
     "description": "경제동향, 지표, 예산 및 기금, 전자민원창구 등 수록",
     "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/moef.png",
     "link": "https://www.moef.go.kr/"
+  },
+  {
+    "id": 11,
+    "name": "통일부",
+    "description": "알림, 통일소식, 통일정책, 주요사업, 정보공개, 민원∙참여, 적극행정, 통일부 소개",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/removebg/unikorea-removebg.png",
+    "link": "https://www.unikorea.go.kr/unikorea/"
+  },
+  {
+    "id": 12,
+    "name": "과학기술정보통신부",
+    "description": "과학기술정보통신부",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/removebg/msit-removebg.png",
+    "link": "https://www.msit.go.kr/index.do"
   }
 ]

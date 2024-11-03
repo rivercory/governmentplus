@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Route } from 'react-router';
+import { Route } from 'react-router-dom';
 
 export default (
   <Route>
