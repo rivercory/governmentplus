@@ -82,5 +82,26 @@
     "description": "과학기술정보통신부",
     "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/removebg/msit-removebg.png",
     "link": "https://www.msit.go.kr/index.do"
+  },
+  {
+    "id": 13,
+    "name": "교육부",
+    "description": "교육개혁, 대한민국 재도약의 시작",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/moe.svg",
+    "link": "https://www.moe.go.kr/main.do"
+  },
+  {
+    "id": 14,
+    "name": "농림축산식품부",
+    "description": "농림축산식품부",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/removebg/mafra-removebg.png",
+    "link": "https://www.mafra.go.kr/sites/home/index.do"
+  },
+  {
+    "id": 15,
+    "name": "고용노동부",
+    "description": "고용노동부",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/moel.svg",
+    "link": "https://www.moel.go.kr/index.do"
   }
 ]
