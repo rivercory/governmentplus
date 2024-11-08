@@ -103,5 +103,33 @@
     "description": "고용노동부",
     "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/moel.svg",
     "link": "https://www.moel.go.kr/index.do"
+  },
+  {
+    "id": 16,
+    "name": "해양수산부",
+    "description": "해양수산부",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/removebg/mof-removebg.png",
+    "link": "https://www.mof.go.kr/index.do"
+  },
+  {
+    "id": 17,
+    "name": "국토교통부",
+    "description": "주거 안정으로 민생을 회복하고 국민의 미래를 준비하겠습니다!",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/removebg/molit-removebg.png",
+    "link": "https://www.molit.go.kr/portal.do"
+  },
+  {
+    "id": 18,
+    "name": "환경부",
+    "description": "환경부",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/removebg/me-removebg.png",
+    "link": "https://www.me.go.kr/home/web/main.do"
+  },
+  {
+    "id": 19,
+    "name": "국가보훈부",
+    "description": "국가유공자와 보훈가족의 영예로운 삶이 유지 보장되도록 보상금 지급, 교육, 취업, 의료, 대부등의 보훈정책을 수립하여, 지원합니다.",
+    "img": "https://cdn.jsdelivr.net/gh/rivercory/governmentplus/public/assets/img/mpva.svg",
+    "link": "https://www.mpva.go.kr/mpva/index.do"
   }
 ]
